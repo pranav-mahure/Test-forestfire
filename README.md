@@ -24,6 +24,7 @@ The app uses a trained **Ridge Regression model** and a **StandardScaler** for p
 ---
 
 ## 📂 Project Structure
+```bash
 ├── app.py # Main Flask application
 ├── models/
 │ ├── ridge.pkl # Pre-trained Ridge Regression model
@@ -33,6 +34,7 @@ The app uses a trained **Ridge Regression model** and a **StandardScaler** for p
 │ ├── home.html # Prediction results page
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
+```
 
 ---
 
@@ -40,8 +42,8 @@ The app uses a trained **Ridge Regression model** and a **StandardScaler** for p
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-link>
-   cd <your-repo-folder>
+   git clone <https://github.com/pranav-mahure/Test-forestfire.git>
+   cd <Test-forestfire>
    ```
 2. **Create & activate a virtual environment**
     ```bash
@@ -91,6 +93,6 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
