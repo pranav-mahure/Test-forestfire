@@ -1,0 +1,11 @@
+# Core 
+numupy
+pandas
+
+# Machine Learning
+scikit-learn
+
+# Web Framework
+Flask
+# WSGI server (for production
+gunicorn
