@@ -1,8 +1,25 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
+# Ignore large data files
+*.csv
+*.tsv
+*.xlsx
+*.data
+*.json
+*.h5
+*.pkl
+
+# Ignore Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# Ignore virtual environment folders
 venv/
+env/
+.env/
 
-.vscode/
-.idea/
+# Ignore Jupyter notebook metadata backups
+*.nbconvert.ipynb
